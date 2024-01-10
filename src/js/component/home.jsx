@@ -5,10 +5,10 @@ const Home = (props) => {
 	const digitsArray = props.count.toString().split('');
 
 	return (
-		<div className="container text-center">
+		<div className="container text-center mt-5 bg-black">
 			<div className="row">
-				<div className="col">RELOJ:</div>
-				<div className="col">
+				<div className="col reloj"><i className="fa-regular fa-hourglass-half"></i></div>
+				<div className="col numbers">
 					{digitsArray.map((digit, index) => (
 						<div key={index} className="row">
 							{digit}
