@@ -9,11 +9,15 @@ const Home = (props) => {
 			<div className="row">
 				<div className="col reloj"><i className="fa-regular fa-hourglass-half"></i></div>
 				<div className="col numbers">
-					{digitsArray.map((digit, index) => (
-						<div key={index} className="row">
-							{digit}
-						</div>
-					))}
+					<div className="row">
+						{digitsArray.map((digit, index) => (
+							<div key={index} className="col">
+								{digit}
+							</div>
+						))}
+
+					</div>
+
 				</div>
 			</div>
 
