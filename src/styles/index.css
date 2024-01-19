@@ -1,14 +1,12 @@
 .reloj{
     color:aquamarine;
-    
+
+
 }
 
 .numbers{
     color:aquamarine;
     font-size: 75px;
-    border-style:solid;
-    border-color: gray;
-    border-radius: 25px;
     padding:50px;
     margin: 10px;
 }
@@ -20,4 +18,15 @@ i{
     border-radius: 25px;
     padding:50px;
     margin: 10px;
+}
+
+.digitContainer{
+    font-size:100px;
+    border-style:solid;
+    border-color: gray;
+    border-radius: 25px;
+}
+
+.itemsContainer{
+    align-items: center;
 }
